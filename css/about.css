@@ -1,0 +1,359 @@
+         /* ABOUT US */
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif; 
+    word-spacing: 2px;
+}
+
+
+.container {
+    display: flex;
+    height: calc(100vh - 50px); /* Adjust for header height */
+    overflow: hidden;
+} 
+
+.inside-out{
+    margin-top: 2px;
+    background: rgb(244, 242, 242);
+}
+                    
+.two-column {
+    display: flex;  
+    padding: 0px;            
+}
+
+.column.content{
+    margin-top: -100px;
+    color: #000; 
+    padding: 50px;
+}
+                                          
+.column {
+    flex: 1;
+}
+                             
+.column.content h1 {
+    margin-top: 70px;
+    color: #000;
+    padding: 0px;
+    font-size: 45px;
+    text-align: left;
+    padding: 20px 30px;
+}
+                                
+.column.content p{
+    padding: 0px 30px;
+    color: #000;
+    text-align: left;
+    font-size: 25px;
+}
+                                
+    
+.column .curriculum img{
+    height: 530px;
+    width: 100%;
+    border-radius: 5px;
+}
+                                       /*ABOUT US ENDS*/
+                         
+
+
+                     /* OUR TEAM STARS*/
+
+.contents-team{
+    margin-top: 0px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.highlight {
+    margin: 20px;
+    color: #f08080;
+    font-size: 40px;
+}
+
+.contents-team .we-know{
+    font-size: 24px;
+    margin: 20px 0px 20px 0px;
+}
+.team-member {
+    display: inline-block;
+    text-align: center;
+    margin: 20px;    
+    font-size: 24px;
+}
+                        
+.team-member img {
+    width: 400px;
+    height: 380px;
+    border-radius: 270px;
+}
+
+.team-member img:hover{
+    transform: scale(1.02); 
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2); 
+    border-color: #007bff; 
+    opacity: .75;
+}
+                          
+.contents #book-us-btn{
+    width: 300px;
+}
+                      
+
+#myteam .tittles{
+    color: #2980b9;
+    font-style: normal;
+    font-size: 23px;
+}
+.contents-team .more button{
+    background: #0a49d1d6;
+    margin: 10px;
+    padding: 18px 35px;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.contents-team .more button a{
+    color: #fff;
+    text-decoration: none;
+}
+                                
+.contents-team .more button:hover{
+    background-color: #2980b9; 
+}                      
+
+                    /*OUR TEAM ENDS */
+
+
+
+                         /*OUR MISSIONS STARTS */
+
+.mission-boxes {
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+}
+  
+.mission-box {
+    width: calc(33% - 20px);
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    margin: 10px;
+    text-align: center;
+}
+  
+.mission-box i {
+    font-size: 3em;
+    color: #f08080;
+    margin: 10px;   
+}
+
+
+i.fas.fa-handshake.icon{
+    font-size: 3em;
+    color: #f08080;
+    margin-bottom: 10px;
+}
+
+
+.mission-box h3 {
+    font-size: 1.4em;
+    margin: 10px;
+    padding: 0px
+}
+
+.mission-box p{
+    font-size: 20px;
+    line-height: 1.5;
+    padding: 10px;
+}
+
+
+.mission-box{
+    
+    padding: 5px 0px;
+}
+
+            /*OUR MISSIONS ENDS */
+
+
+
+                                /* RESPONSIVENESS */
+
+/* Laptops (1200px and below) */
+@media (max-width: 1200px) {
+    .column.content h1 {
+        font-size: 40px;
+    }
+
+    .column.content p {
+        font-size: 22px;
+    }
+
+    .mission-box {
+        width: calc(50% - 20px);
+    }
+}
+
+/* Tablets (1024px and below) */
+@media (max-width: 1024px) {
+    .column.content {
+        margin-top: -50px;
+        padding: 50px;
+    }
+
+    .column.content h1 {
+        font-size: 35px;
+    }
+
+    .column.content p {
+        font-size: 20px;
+    }
+
+    .two-column {
+        flex-direction: column;
+    }
+
+    .mission-box {
+        width: 100%;
+    }
+
+    .column .curriculum img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+/* Mobile Devices (768px and below) */
+@media (max-width: 768px) {
+    .column.content {
+        margin-top: -20px;
+        padding: 30px;
+    }
+
+    .column.content h1 {
+        font-size: 30px;
+        padding: 10px 20px;
+    }
+
+    .column.content p {
+        font-size: 18px;
+        padding: 10px 20px;
+    }
+
+    .mission-boxes {
+        flex-direction: column;
+        padding: 30px 0;
+    }
+
+    .mission-box {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .column .curriculum img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Laptops (1024px and above) */
+@media (max-width: 1200px) {
+    .column.content h1 {
+        font-size: 40px;
+    }
+
+    .column.content p {
+        font-size: 22px;
+    }
+
+    .mission-box {
+        width: calc(50% - 20px);
+    }
+}
+
+
+
+/* Tablets (768px - 1024px) */
+@media (max-width: 1024px) {
+    .column.content {
+        margin-top: -50px;
+        padding: 50px;
+    }
+
+    .column.content h1 {
+        font-size: 35px;
+    }
+
+    .column.content p {
+        font-size: 20px;
+    }
+
+    .two-column {
+        flex-direction: column;
+    }
+
+    .mission-box {
+        width: 100%;
+    }
+
+    .column .curriculum img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+/* Mobile (iPhone, Android - 480px and below) */
+@media (max-width: 768px) {
+    .column.content {
+        margin-top: -20px;
+        padding: 30px;
+    }
+
+    .column.content h1 {
+        font-size: 30px;
+        padding: 10px 20px;
+    }
+
+    .column.content p {
+        font-size: 18px;
+        padding: 10px 20px;
+    }
+
+    .mission-boxes {
+        flex-direction: column;
+        padding: 30px 0;
+    }
+
+    .mission-box {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .column .curriculum img {
+        width: 100%;
+        height: auto;
+    }
+}            

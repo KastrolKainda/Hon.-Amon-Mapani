@@ -1,0 +1,954 @@
+/* Google Fonts Link */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Times New Roman', Times, serif; 
+  word-spacing: 2px;
+  background: #fff;
+}
+
+nav {
+    background-color: #031334;
+    height: 80px;
+    width: 100%;
+    position: fixed; /* Keeps the navbar fixed on scroll */
+    top: 0; /* Positions navbar at the top of the page */
+    
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2); /* Adds subtle shadow for depth */
+    z-index: 1000;
+    
+}
+
+label.logo {
+  color: white;
+  font-size: 20px;
+  line-height: 80px;
+  padding: 0 100px;
+  font-weight: 15px;
+}
+
+nav ul {
+  float: right;
+  margin-right: 20px;
+}
+
+nav ul li {
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+}
+
+nav ul li a {
+  color: white;
+  font-size: 17px;
+  padding: 7px 13px;
+  border-radius: 3px;
+  text-transform: uppercase;
+}
+
+.nav_links a.active,
+.nav_links a:hover {
+  background: #1b9bff;
+  transition: .5s;
+}
+
+.checkbtn {
+  font-size: 22px;
+  color: white;
+  float: right;
+  line-height: 80px;
+  margin-right: 30px;
+  cursor: pointer;
+  display: none;
+}
+
+#check {
+  display: none;
+}
+
+/*
+section {
+    background: url("../images/bg.jpg") no-repeat;
+    background-size: cover;
+    height: calc(100vh - 80px);
+  }
+
+*/
+
+
+
+
+.container {
+    margin: 80px 0px;
+    display: flex;
+    height: calc(100vh - 50px); /* Adjust for header height */
+    overflow: hidden;
+    width: 100%;
+}
+
+.left-section {
+    padding: 20px;
+    width: 50%;
+    background-image: url('../images/F1.jpg'); /* Replace with your image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.right-section {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(8, 88, 28, 0.794); /* Transparent background */
+    color: white;
+    text-align: left;
+    padding: 70px;
+}
+
+.content-1 h1 {
+    font-size: 6em;
+    margin-bottom: 30px;
+}
+
+.content-1 p {
+    font-size: 1.6em;
+    margin-bottom: 70px;
+    color: #fff;
+    padding: 0px;
+}
+
+.btn {
+    padding: 12px 25px;
+    background-color: #ff6600;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.3em;
+}
+
+.btn:hover {
+    background-color: #ff8533;
+}
+
+
+
+
+
+			/*ABOUT US STARTS*/
+
+            .aboutus h1{
+                font-size: 45px;   
+            }
+                      
+            .aboutus{
+                text-align: center;
+                margin: 40px;
+            }
+            
+            .aboutus span{
+                color: #f08080;
+            }
+            .aboutus p{
+                margin: 20px;
+                padding: 20px 300px;
+                font-size: 25px;
+                font-style: normal;
+                color: #000;
+            }
+            .aboutus a{
+                text-decoration: none;
+            }
+
+            
+            .more button{
+                background: #0a49d1d6;
+                margin: 10px;
+                padding: 15px 30px;
+                text-align: center;
+                border: none;
+                border-radius: 5px;
+                margin-bottom: 20px;
+            }
+            .more button a{
+               color: #fff;
+               
+            }
+                        
+            .more button:hover{
+                background-color: #2980b9; 
+                transition: .5s;
+            }
+                                    /*ABOUT US ENDS*/
+                        
+                        
+                     
+                                /*OUR COMMUNITY STARTS*/
+                        
+            .inside-out{
+                background: rgb(244, 242, 242);
+                
+            }
+            
+            .two-column {
+                display: flex;  
+                padding: 0px;  
+                width:100%;          
+            }
+            
+            .column.content{
+                margin: 10px;
+                color: #000; 
+                padding: 0px;
+                width: 50%;
+            }
+                                  
+            .column {
+                flex: 1;
+            }
+                     
+            .column span{
+                color: rgba(8, 88, 28, 0.794);
+            }
+            .column.content h2 {
+                color: #000;
+                padding: 0px;
+                font-size: 45px;
+                text-align: left;
+                padding: 20px 30px;
+            }
+                        
+            .column.content p{
+                padding: 20px 30px;
+                color: #000;
+                text-align: left;
+                font-size: 25px;
+            }
+                                  
+            .column.content button{
+                background-color: #ff8533; 
+                margin: 40px 0px 0px 30px;
+                padding: 15px 25px;
+                text-align: center;
+                cursor: pointer;
+            }
+            .column.content button a{
+                color: #fff;
+                text-decoration: none;
+            }
+                        
+            .column.content button:hover {
+                background-color: #c76727;
+            }
+                               
+            .column .curriculum img{
+                height: 450px;
+                width: 100%;
+                border-radius: 10px;
+            }
+                                
+                                /*OUR COMMUNITY ENDS*/
+                        
+
+
+
+       
+                /*OUR NEWS & ARTICLES STARTS HERE*/
+                .resources h1{
+                  text-align: center;
+                  margin: 25px;
+                  font-size: 45px;
+              }
+              
+              .resources span{
+                  color: #0a49d1d6;
+              }
+              
+              .news-article-intro p{
+                  font-size: 25px;
+                  text-align: center;
+                  margin: 15px 450px;
+              }
+                      /*the rows in the container*/
+              .container-50{
+                  margin: 40px 40px;
+                  display: grid;
+                  grid-template-columns: repeat(3, 1fr);
+                  gap: 20px;
+              }
+                        /*columns inside the container*/
+              .content-100 {
+                  margin: auto;
+                  color: #000;
+                  width: 413px;
+                  padding: 0px;
+                  background: rgb(244, 242, 242);
+              }
+              
+              .content-100:hover{
+                  transform: scale(1.02); 
+                  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2); 
+                  border-color: #007bff; 
+              }
+                           
+                       /* background image or icons*/
+              .resources img{
+                  height: 250px;
+                  width: 413px;
+              }
+              
+              .resources h2{
+                  font-size: 26px;
+                  text-align: center;
+                  margin: 10px;
+                  padding: 10px;
+                  color: #0672e6;
+              }
+                               
+              p{
+                  font-size: 20px;
+                  font-style: normal;
+                  color: #000;
+                  padding: 0px 30px;
+              }
+                      
+                      /*the links inside the buttons - for LEARN MORE*/
+              button{
+                  text-align: center;
+                  border: none;
+                  padding: 15px 30px;
+                  border-radius: 5px;
+                  cursor: pointer;
+                  margin: 30px 0px 10px 130px;
+              }
+                                   
+              .green-btn button{
+                  background-color: #0a49d1d6;
+              }
+                           /*a hover */
+              .resources button:hover{
+                  background-color: #2980b9; 
+                  transition: .5s;
+              }
+                                  
+              .green-btn button a{
+                  text-align: center;
+                  color: #fff;
+                  font-weight: bolder;
+                  text-decoration: none;
+              }
+                      
+                          /*OUR NEWS & ARTICLES ENDS HERE*/
+              
+              
+              
+                        /* DONATIONS AND VOLUNTEERING STARTS HERE*/
+              
+              .well-100{
+                  padding: 20px 20px;
+                  background-color: rgba(126, 81, 202, 0.974);
+                  text-align: center;
+                  color: #fff;
+              }
+                    
+              .container-1000{
+                display: flex;
+                margin: 10px 15px;
+              }
+                      
+              .column-101{
+                flex: 1;
+                padding: 5px;
+              }
+                      
+              #par103 {
+                font-size: 2.0em;
+                margin-bottom: 5px;
+                text-align: center;
+              }
+                      
+              #p1000  {
+                color: #fff;
+                font-size: 25px;
+                padding: 30px 45px;
+                text-align: left;
+              }
+              
+              .column-101  ul li{
+                text-align: left;
+                font-size: 22px;
+                padding: 5px 40px;
+                list-style-type: none;
+              }
+                    
+              .well-100 h1{
+                text-align: center;
+                color: #fff;
+                font-size: 50px;
+                margin: 10px;
+              }
+                        /*button*/
+              .column-101 .donate_voluteer button{
+                background-color: rgba(121, 91, 174, 0.974);
+                padding: 12px 25px;
+                text-align: center;
+                font-size: 15px;
+                border-radius: 25px;
+                border: 2px solid #fff;
+                margin: 50px 0px 0px 20px;
+              }
+                  
+              .donate_voluteer a{
+                  text-decoration: none;
+                  color: #fff;
+              }
+              .donate_voluteer button:hover{
+                color: rgba(126, 81, 202, 0.974);
+                background-color: #fff;
+                transition: .5s;
+              }
+              .donate_voluteer a:hover{
+                  color: rgba(126, 81, 202, 0.974);
+              }
+              
+
+                /* DONATIONS AND VOLUNTEERING ENDS HERE */
+
+
+
+
+
+
+
+
+
+            /* RESPONSIVENESS STARTS HERE */
+
+            /* Navigation Bar RESPONSIVENESS STARTS HERE */
+@media (max-width: 1050px) {
+  label.logo {
+    padding-left: 30px;
+  }
+
+  nav ul li a {
+    font-size: 16px;
+  }
+}
+
+        /* Responsive media query code for small screen */
+@media (max-width: 890px) {
+  .checkbtn {
+    display: block;
+  }
+
+  label.logo {
+    font-size: 22px;
+  }
+
+  ul {
+    position: fixed;
+    width: 100%;
+    height: 69vh;
+    background: #2c3e50;
+    top: 75px;
+    left: -120%;
+    text-align: center;
+    transition: all .5s;
+  }
+
+  nav ul li {
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+  }
+
+  nav ul li a {
+    font-size: 20px;
+  }
+
+  .nav_links a:hover,
+  .nav_links a.active {
+    background: none;
+    color: #0082e6;
+  }
+
+  #check:checked~ul {
+    left: 0;
+  }
+}
+
+
+        /*------------------------------------------------*/
+
+/* Large screens (1200px and above) */
+@media (min-width: 1200px) {
+    .content-1 h1 {
+        font-size: 6em;
+    }
+
+    .content-1 p {
+        font-size: 1.6em;
+    }
+
+    .btn {
+        font-size: 1.3em;
+    }
+}
+
+/* Desktops (between 1024px and 1199px) */
+@media (min-width: 1024px) and (max-width: 1199px) {
+    .content-1 h1 {
+        font-size: 5em;
+    }
+
+    .content-1 p {
+        font-size: 1.4em;
+    }
+
+    .btn {
+        font-size: 1.2em;
+    }
+}
+
+/* Tablets (between 768px and 1023px) */
+@media (min-width: 768px) and (max-width: 1023px) {
+    .left-section {
+        height: 550px;
+        width:auto
+     }
+
+    .container {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .left-section,
+    .right-section {
+        width: 100%;
+    }
+
+    .content-1 h1 {
+        font-size: 4em;
+    }
+
+    .content-1 p {
+        font-size: 1.2em;
+    }
+
+    .btn {
+        font-size: 1.1em;
+        padding: 10px 20px;
+    }
+}
+
+/* Phones (below 768px) */
+@media (max-width: 767px) {
+
+    .left-section {
+       height: 490px;
+       width:auto
+    }
+
+
+    .container {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .left-section,
+    .right-section {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .content-1 h1 {
+        font-size: 2.5em;
+        margin-bottom: 20px;
+    }
+
+    .content-1 p {
+        font-size: 1em;
+        margin-bottom: 50px;
+    }
+
+    .btn {
+        font-size: 1em;
+        padding: 8px 18px;
+    }
+}
+
+            /* Navigation Bar RESPONSIVENESS ENDS HERE */
+
+
+           
+           
+           
+            /* About Us RESPONSIVENESS ENDS HERE */
+
+            /* laptops & desktop*/
+            @media (max-width: 1200px) {
+                .aboutus h1 {
+                    font-size: 38px;
+                }
+                .aboutus p {
+                    padding: 20px 200px;
+                    font-size: 22px;
+                }
+            }
+            
+            /* tablets */
+            @media (max-width: 992px) {
+                .aboutus h1 {
+                    font-size: 32px;
+                }
+                .aboutus p {
+                    padding: 20px 100px;
+                    font-size: 20px;
+                }
+            }
+            
+            @media (max-width: 768px) {
+                .aboutus h1 {
+                    font-size: 28px;
+                }
+                .aboutus p {
+                    padding: 20px 50px;
+                    font-size: 18px;
+                }
+                .more button {
+                    padding: 10px 20px;
+                }
+            }
+            
+            /*phones */
+            @media (max-width: 576px) {
+                .aboutus h1 {
+                    font-size: 24px;
+                }
+                .aboutus p {
+                    padding: 20px;
+                    font-size: 16px;
+                }
+                .more button {
+                    padding: 8px 15px;
+                }
+            }
+
+
+            /* About Us RESPONSIVENESS ENDS HERE */
+
+
+            /* Our Community RESPONSIVENESS STARTS HERE */
+
+/* Tablet (max-width: 1024px) */
+@media (max-width: 1024px) {
+    .column.content {
+        width: 60%;
+    }
+    .column.content h2 {
+        font-size: 35px;
+        padding: 15px 20px;
+    }
+    .column.content p {
+        font-size: 20px;
+        padding: 15px 20px;
+    }
+    .column .curriculum img {
+        height: 350px;
+    }
+}
+
+/* Small Tablet & Large Mobile (max-width: 768px) */
+@media (max-width: 768px) {
+    .two-column {
+        flex-direction: column;
+    }
+    .column.content {
+        width: 100%;
+        margin: 5px;
+    }
+    .column.content h2 {
+        font-size: 30px;
+        padding: 10px 15px;
+    }
+    .column.content p {
+        font-size: 18px;
+        padding: 10px 15px;
+    }
+    .column.content button {
+        margin: 20px 0px 0px 15px;
+        padding: 12px 20px;
+    }
+    .column .curriculum img {
+        height: 300px;
+    }
+}
+
+/* Mobile (max-width: 480px) */
+@media (max-width: 480px) {
+    .column.content h2 {
+        font-size: 24px;
+        padding: 10px 10px;
+    }
+    .column.content p {
+        font-size: 16px;
+        padding: 10px 10px;
+    }
+    .column.content button {
+        margin: 20px 0px 0px 10px;
+        padding: 10px 15px;
+    }
+    .column .curriculum img {
+        height: 200px;
+    }
+}
+
+            /* Our Community RESPONSIVENESS ENDS HERE */
+
+
+        /* OUR NEWS & ARTICLES RESPONSIVENESS STARTS HERE */
+
+/* Large desktops and smaller */
+@media (max-width: 1200px) {
+    .resources h1 {
+        font-size: 40px;
+    }
+    .news-article-intro p {
+        font-size: 22px;
+        margin: 15px 300px;
+    }
+    .resources h2 {
+        font-size: 24px;
+    }
+}
+
+/* Tablets and smaller devices */
+@media (max-width: 992px) {
+    .container-50 {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .news-article-intro p {
+        margin: 15px 150px;
+    }
+    .content-100 {
+        width: 100%;
+    }
+    .resources h1 {
+        font-size: 35px;
+    }
+    .resources h2 {
+        font-size: 22px;
+    }
+    
+}
+
+/* Small tablets and large phones */
+@media (max-width: 768px) {
+    .container-50 {
+        grid-template-columns: 1fr;
+        margin: 20px;
+    }
+    .resources h1 {
+        font-size: 30px;
+    }
+    .news-article-intro p {
+        font-size: 20px;
+        margin: 15px;
+    }
+    .resources img {
+        width: 100%;
+    }
+    button {
+       /* margin: 20px auto; */
+
+
+        text-align: center;
+        /*padding: 12px 25px;*/
+        margin: 20px 250px;
+        height: 45px;
+        width: 150px;
+    }
+}
+
+/* Small phones */
+@media (max-width: 576px) {
+    .resources h1 {
+        font-size: 25px;
+    }
+    .resources h2 {
+        font-size: 20px;
+    }
+    .news-article-intro p {
+        font-size: 18px;
+        margin: 10px;
+    }
+    button {
+        text-align: center;
+        /*padding: 12px 25px;*/
+        margin: 20px 200px;
+        height: 45px;
+        width: 150px;
+    }
+    
+}
+
+         /* OUR NEWS & ARTICLES RESPONSIVENESS ENDS HERE */
+
+
+         /* DONATIONS AND VOLUNTEERING STARTS HERE*/
+
+            /* For small screens (phones, less than 600px wide) */
+@media only screen and (max-width: 600px) {
+    .well-100 {
+        padding: 15px 10px;
+        font-size: 1.5em;
+    }
+
+    .container-1000 {
+        flex-direction: column;
+        margin: 5px;
+    }
+
+    .column-101 {
+        padding: 5px;
+    }
+
+    #par103 {
+        font-size: 1.5em;
+    }
+
+    #p1000 {
+        font-size: 18px;
+        padding: 20px 30px;
+    }
+
+    .column-101 ul li {
+        font-size: 18px;
+        padding: 5px 20px;
+    }
+
+    .well-100 h1 {
+        font-size: 35px;
+    }
+
+    .column-101 .donate_voluteer button {
+        padding: 10px 20px;
+        font-size: 14px;
+        margin: 20px 0;
+    }
+}
+
+/* For medium screens (tablets, 600px to 768px wide) */
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+    .well-100 {
+        padding: 18px 15px;
+    }
+
+    .container-1000 {
+        flex-direction: column;
+        margin: 10px;
+    }
+
+    #par103 {
+        font-size: 1.8em;
+    }
+
+    #p1000 {
+        font-size: 20px;
+        padding: 25px 35px;
+    }
+
+    .column-101 ul li {
+        font-size: 20px;
+    }
+
+    .well-100 h1 {
+        font-size: 40px;
+    }
+
+    .column-101 .donate_voluteer button {
+        padding: 11px 23px;
+    }
+}
+
+/* For large screens (desktops, 768px to 1200px wide) */
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
+    .well-100 {
+        padding: 20px;
+    }
+
+    .container-1000 {
+        flex-direction: row;
+        margin: 15px;
+    }
+
+    #par103 {
+        font-size: 1.9em;
+    }
+
+    #p1000 {
+        font-size: 22px;
+        padding: 28px 40px;
+    }
+
+    .column-101 ul li {
+        font-size: 21px;
+    }
+
+    .well-100 h1 {
+        font-size: 45px;
+    }
+
+    .column-101 .donate_voluteer button {
+        padding: 12px 24px;
+    }
+}
+
+/* For extra-large screens (large desktops, 1200px and above) */
+@media only screen and (min-width: 1200px) {
+    .well-100 {
+        padding: 20px 20px;
+    }
+
+    .container-1000 {
+        flex-direction: row;
+        margin: 10px 15px;
+    }
+
+    #par103 {
+        font-size: 2.0em;
+    }
+
+    #p1000 {
+        font-size: 25px;
+        padding: 30px 45px;
+    }
+
+    .column-101 ul li {
+        font-size: 22px;
+    }
+
+    .well-100 h1 {
+        font-size: 50px;
+    }
+
+    .column-101 .donate_voluteer button {
+        padding: 12px 25px;
+    }
+}
+
+
+         /* DONATIONS AND VOLUNTEERING ENDS HERE*/

@@ -1,0 +1,199 @@
+
+                     /* CONTACT US STARTS HERE*/
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif; 
+    word-spacing: 2px;
+}
+
+.inside-out{
+    margin-top: 4px;
+   
+    background: rgb(244, 242, 242);
+}
+                    
+.two-column {
+    display: flex;  
+    padding: 0px;            
+}
+
+.column.content{
+    margin-top: -100px;
+    color: #000; 
+    padding: 50px;
+}
+                                          
+.column {
+    flex: 1;
+}
+                            
+.column.content h1 {
+    color: #000;
+    padding: 0px;
+    font-size: 45px;
+    text-align: left;
+    padding: 20px 10px;
+    margin: 35px 0px 20px -10px
+}
+
+/*
+.column.content p{
+    padding: 0px;
+    color: #000;
+    text-align: left;
+    font-size: 22px;
+    margin-top: 40px;
+}
+  */                                        
+                                 
+.column .curriculum img{
+    height: 530px;
+    width: 800px;
+    border-radius: 5px;
+}
+          
+.highlight {
+    color: #f08080;
+    font-size: 40px;
+}
+a{
+    text-decoration: none;
+    color: rgba(2, 189, 2, 0.946);
+}
+a:hover{
+    color: rgba(1, 25, 49, 0.998);
+    cursor: pointer;
+}
+
+h6{
+    font-size: 25px;
+    color: #2980b9;
+    margin: 20px 0px;
+}
+
+.column.content p{
+    padding: -15px 20px;
+    /* margin: 5px 0px; */
+}
+
+            /* CONTACT US ENDS HERE*/
+
+
+            /* RESPONSIVENESS BEGINS HERE */
+
+/* Mobile - up to 600px */
+@media (max-width: 600px) {
+    .two-column {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .column.content {
+        margin-top: 0;
+        padding: 20px;
+    }
+
+    .column.content h1 {
+        font-size: 30px;
+        margin: 20px 0;
+        padding: 10px 0;
+    }
+
+    .column.content p {
+        font-size: 18px;
+        margin-top: 20px;
+    }
+
+    .column .curriculum img {
+        height: 300px;
+        width: 100%;
+        border-radius: 5px;
+    }
+
+    .highlight {
+        font-size: 30px;
+    }
+
+    h6 {
+        font-size: 20px;
+        margin: 10px 0;
+    }
+}
+
+/* Tablet - 601px to 992px */
+@media (min-width: 601px) and (max-width: 992px) {
+    .two-column {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .column.content {
+        margin-top: 0;
+        padding: 30px;
+    }
+
+    .column.content h1 {
+        font-size: 36px;
+        margin: 25px 0;
+        padding: 10px 5px;
+    }
+
+    .column.content p {
+        font-size: 20px;
+        margin-top: 30px;
+    }
+
+    .column .curriculum img {
+        height: 400px;
+        width: 100%;
+        border-radius: 5px;
+    }
+
+    .highlight {
+        font-size: 32px;
+    }
+
+    h6 {
+        font-size: 22px;
+        margin: 15px 0;
+    }
+}
+
+/* Desktop - 993px and above */
+@media (min-width: 993px) {
+    .two-column {
+        display: flex;
+        padding: 0px;
+    }
+
+    .column.content {
+        margin-top: -100px;
+        padding: 50px;
+    }
+
+    .column.content h1 {
+        font-size: 45px;
+        margin: 35px 0 20px -10px;
+    }
+
+    .column.content p {
+        font-size: 22px;
+        margin-top: 40px;
+    }
+
+    .column .curriculum img {
+        height: 530px;
+        width: 800px;
+    }
+
+    .highlight {
+        font-size: 40px;
+    }
+
+    h6 {
+        font-size: 25px;
+        margin: 20px 0;
+    }
+}
+    
